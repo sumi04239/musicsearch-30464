@@ -1,0 +1,39 @@
+<%= render partial:"shared/header" %>
+<div class='main'>
+  <div class="upper-contents">
+    <h2 class="upper-title">
+      その日の気分に合った<br/>新しい音楽に出会える
+    </h2>
+  </div>
+
+  <div class="middle-contents">
+    <h2 class="middle-title">
+      早速音楽を検索する！！
+    </h2>
+    <ul class="search-lists">
+      </li>
+      <li class="list">  
+        <h3>
+          textから音楽を検索する
+        </h3>
+        <%= link_to "検索", root_path, class: :btn %>
+      </li>
+      <li class="list">
+        <h3>
+          選択肢から検索する
+        </h3>
+        <%= link_to "検索", root_path, class: :btn %>
+      </li>
+    </ul>
+  </div>
+
+  <div class="lower-contents">
+    <div class="lower-pic">
+
+    </div>
+    <h2 class="lower-title">
+      みんなのお勧めを見る
+    </h2>
+  </div>
+</div>
+<%= render partial:"shared/footer" %>
