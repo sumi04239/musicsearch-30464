@@ -8,7 +8,9 @@
 
   <div class="middle-contents">
     <h2 class="middle-title">
-      早速音楽を検索する！！
+      気分が落ち込んだ時、<br/>
+      これから頑張らなくてはいけない時、<br/>
+      一人でも、大事な人と一緒でも
     </h2>
     <ul class="search-lists">
       </li>
@@ -16,13 +18,17 @@
         <h3>
           textから音楽を検索する
         </h3>
-        <%= link_to "検索", root_path, class: :btn %>
+        <div class="search-btn">
+          <%= link_to "text検索", search_musics_path, class: :btn %>
+        </div>
       </li>
       <li class="list">
         <h3>
           選択肢から検索する
         </h3>
-        <%= link_to "検索", root_path, class: :btn %>
+        <div class="search-btn">
+          <%= link_to "select検索", search_selects_path, class: :btn %>
+        </div>
       </li>
     </ul>
   </div>

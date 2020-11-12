@@ -43,6 +43,30 @@
   height: 400px;
   list-style: none;
   text-align: center;
+  margin-top: 30px;
+}
+
+.list>h3{
+  mix-blend-mode: color-dodge;
+  color: rgb(190, 156, 156);
+  font-size: 25px;
+}
+
+.search-btn{
+  margin-top: 100px;
+  display: block;
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(37, 37, 37);
+  padding: 20px 40px;
+  border: 6px rgb(185, 187, 40) double;
+  border-radius: 30px;
+  mix-blend-mode: luminosity;
 }
 
 /*下部*/
