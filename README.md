@@ -41,11 +41,11 @@
   - テキスト入力検索
     テキストに文字を入力し、そこから出たアベレージの数字をもとに
     音楽を検索して画面に遷移するようにする予定です。
-<br/>
+
     [![Image from Gyazo](https://i.gyazo.com/125c83a0d992df59c9b23e1419760296.jpg)](https://gyazo.com/125c83a0d992df59c9b23e1419760296)
 
   - 選択入力検索
-  <br/>
+  
     こちらは選択して行った物で絞り込むことにより、
     音楽を検索して遷移するようにする予定です。
     
@@ -72,21 +72,22 @@
 
 ### musics
 
-|Column              |Type     |Options           |
-|-----------------|---------|---------------------|
-| user_id            | references  | null:false, foreign_key: true          |
-| text         | string    | null:false          |
+|Column  |Type       |Options                         |
+|--------|-----------|--------------------------------|
+| user_id| references| null:false, foreign_key: true  |
+| text   | string    | null:false                     |
 
 - belongs_to :user
 
 ### selects
 
-|Column|Type|Options|
-| user_id | references |null: false, foreign_key: true |
-| feeling_id | integer | null: false |
-| busy_id | null: false |
-| weather_id | integer | null: false | 
-| todo_id | integer | null: false |
+|Column      |Type        |Options|
+|------------|------------|-------|
+| user_id    | references |null: false, foreign_key: true |
+| feeling_id | integer    | null: false |
+| busy_id    | null: false|
+| weather_id | integer    | null: false | 
+| todo_id    | integer    | null: false |
 
 - belongs_to :user
 
