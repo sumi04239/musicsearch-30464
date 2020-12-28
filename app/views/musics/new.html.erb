@@ -1,0 +1,15 @@
+<%= render partial:"shared/header" %>
+<div class="text-main">
+  <div class="text-content">
+    <div class="text-input">
+      <div class="text-inside">
+        <h1>今日の気分を入力してください＾＾</h1>
+        <%= form_with model: @music, local: true do |f| %>
+          <span><%= f.text_area :text, class: "text-area", placeholder: "最大40文字まで", maxlength: 40 %></span>
+          <span><%= f.submit "検索", class: "text-btn" %></span>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render partial:"shared/footer" %>
