@@ -1,0 +1,22 @@
+<%= render partial:"shared/header" %>
+  <div class="select-main">
+    <div class="select-content">
+      <div class="select-input">
+        <div class="select-inside">
+          <h1>次の項目を選択して下さい＾＾</h1>
+          <%= form_with model: @select, local: true do |f| %>
+            <h3>1.今日の気分は？</h3>
+            <%= f.select :feeling_id, [["嬉しい気分", 1], ["怒っている気分", 2], ["悲しい気分", 3], ["落ち着いた気分", 4]], prompt: "今の気分を選択してください。", class: "select-box" %>
+            <h3>2.忙しかった？？</h3>
+            <%= f.select :busy_id, [["忙しかった！！", 1], ["普通", 2], ["そうでも無かった", 3]], prompt: "選択して下さい。", class: "select-box" %>
+            <h3>3.今日の天気は？？</h3>
+            <%= f.select :weather_id, [["晴れ", 1], ["曇り", 2], ["雨", 3], ["雪",4], ["その他", 5]], prompt: "天気を選択して下さい。", class: "select-box" %>
+            <h3>4.これから何したい？</h3>
+            <%= f.select :todo_id, [["まったりしたい", 1], ["旅行に行きたい", 2], ["運動したい", 3], ["勉強したい", 4]], prompt: "やりたいことを選択して下さい。" , class: "select-box" %>
+            <%= f.submit "検索", class: "select-btn" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+<%= render partial:"shared/footer" %>
