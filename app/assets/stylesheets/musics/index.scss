@@ -47,9 +47,10 @@
 }
 
 .list>h3{
-  mix-blend-mode: color-dodge;
-  color: rgb(190, 156, 156);
+  color: black;
   font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0 0 10px white;
 }
 
 .search-btn{
