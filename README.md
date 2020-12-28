@@ -49,7 +49,7 @@
     こちらは選択して行った物で絞り込むことにより、
     音楽を検索して遷移するようにする予定です。
     
-    [![Image from Gyazo](https://i.gyazo.com/d5b567172d792ef9956408d4c54a5a65.jpg)](https://gyazo.com/d5b567172d792ef9956408d4c54a5a65)
+    [![Image from Gyazo](https://i.gyazo.com/f19b46381fd7f368f4e2630ba3468c04.jpg)](https://gyazo.com/f19b46381fd7f368f4e2630ba3468c04)
     
   - 動画再生ページ
   - マイページ
